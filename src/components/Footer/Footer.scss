@@ -1,0 +1,42 @@
+.section-footer .title {
+  font-weight: 700;
+}
+
+.section-footer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 60px 40px 0px 40px;
+  height: 390px;
+  background: url("https://learntocodetogether.nl/assets/skyline.svg") no-repeat
+    bottom center;
+  overflow: hidden;
+}
+
+.section-footer .logo {
+  margin-left: -14px;
+}
+
+.section-footer .team-container {
+  width: 100%;
+  position: absolute;
+  bottom: -40px;
+  text-align: center;
+  margin-left: -40px;
+}
+
+.section-footer .team-container .team {
+  display: inline-block;
+}
+
+.section-footer .title {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.section-footer .subtitle {
+  font-size: 17px;
+  text-align: center;
+  margin-top: 5px;
+}

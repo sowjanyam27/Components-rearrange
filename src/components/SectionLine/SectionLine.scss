@@ -1,0 +1,16 @@
+.section-line {
+  position: absolute;
+  width: 100%;
+}
+
+.section-line .line {
+  width: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  transform: rotate(-0.7deg);
+}
+
+.section-line .line.mask-top {
+  height: 50px;
+  background-color: white;
+  margin-top: -40px;
+}

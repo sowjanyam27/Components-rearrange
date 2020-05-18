@@ -1,0 +1,28 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: 250px;
+  min-width: 250px;
+  padding: 0px 20px;
+}
+
+.item img {
+  height: 130px;
+}
+
+.item .title {
+  text-align: center;
+  max-width: 250px;
+  margin-top: 20px;
+}
+
+.component-title {
+  font-weight: normal;
+}
+
+@media (max-width: 880px) {
+  .item {
+    margin-bottom: 20px;
+  }
+}

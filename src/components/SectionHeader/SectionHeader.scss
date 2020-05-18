@@ -1,0 +1,45 @@
+.component-section-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.component-section-header h2 {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.component-title {
+  font-weight: normal;
+}
+
+.component-section-header .description {
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+  margin-top: 15px;
+  max-width: 500px;
+}
+
+.title-badge {
+  font-weight: 700;
+}
+
+.title-badge {
+  background: #ffd240;
+  padding: 8px 25px;
+  color: white;
+  display: inline-block;
+  transform: rotate(-0.7deg);
+}
+
+.title-badge .title-badge-title {
+  transform: rotate(0.7deg);
+  font-size: 20px;
+}
+
+.title-badge-subtitle {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}

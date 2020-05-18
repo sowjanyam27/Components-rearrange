@@ -1,0 +1,15 @@
+.component-usp-row {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+@media (max-width: 880px) {
+  .component-usp-row {
+    flex-direction: column;
+  }
+
+  .component-usp-row .item {
+    margin-bottom: 20px;
+  }
+}
